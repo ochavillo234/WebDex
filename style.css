@@ -338,6 +338,36 @@ article.icon{
     cursor: default;
 }
 
+/* PROJECT */
+
+#Projects {
+    padding: 20px;
+    text-align: center;
+    max-width: 375px;  /* Limiting the width for iPhone SE */
+    margin: 0 auto;    /* Center content */
+}
+
+/* Title and text styling */
+.title {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+.section__text__p1 {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+.project-img {
+    width: 100%;      /* Make the image responsive */
+    height: auto;     /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 /* CONTACT */
 
 #Contact{
