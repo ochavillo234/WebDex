@@ -81,12 +81,63 @@
         justify-content: center;
     }
     .section__text__p2{
-        font-size: 1.25rem;
+        font-size: 0.7rem;
     }
     .title{
         font-size: 2rem;
     }
     .text-container{
         text-align:justify;
+    }
+    .form-container {
+        padding: 0 10px; 
+    }
+    .namelabel, .emaillabel, .messagelabel {
+        font-size: 1em; 
+    }
+    .textinput, .emailinput, .messagearea {
+        width: 90%; 
+        max-width: 100%;
+        font-size: 1em;
+    }
+    .submit-button {
+        font-size: 1em;
+        border-radius: 50px;
+    }
+    #thank-you-message {
+        font-size: 1.1em;
+    }
+    .thankbtn {
+        font-size: 1em;
+    }
+    .conh4 {
+        font-size: 1.4em;
+    }
+    .form-container {
+        gap: 20px; 
+    }
+    .textinput, .emailinput, .messagearea {
+        width: 80%; 
+        font-size: 1em;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .submit-button {
+        font-size: 1em; 
+        width: 88%;
+    }
+    .thankbtn {
+        font-size: 0.8rem;
+        color: white;
+        background-color: #050a30;
+        width: 88%;
+        margin: 20px;
+        border-radius: 50px;
+        height: auto;
+    }
+    .thank-you-message {
+        size: 0.5rem;
     }
 }

@@ -6,6 +6,17 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "zOI5FHeBSVJFKZp3i",
+      });
+   })();
+    </script>
+
 </head>
 <body>
     <nav id ="desktop-nav">
@@ -42,7 +53,7 @@
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Dexter</h1>
-            <p class="section__text__p2">Student of Cavite States University Bacoor Campus</p>
+            <p class="section__text__p2">I am a Computer Science student with a strong passion for web development. I enjoy creating interactive and user-friendly websites using technologies like HTML, CSS, and JavaScript, and I am continually learning frameworks and back-end development to broaden my skills. My studies have given me a solid foundation in problem-solving, software engineering, and building efficient web solutions. I love taking on new challenges, collaborating with others, and exploring the latest trends in web development. I'm eager to work on real-world projects and grow my expertise while making a meaningful impact in the tech world.</p>
             <div class="btn-container">
                 <button
                 class="btn btn-color-2"
@@ -278,6 +289,30 @@
                      <p>09668932298</p>
             </div>
         </div>
+
+        <div class="downcon">
+    <div class="form-container">
+            <form id="conform">
+                <label for="name" class="namelabel">Name:</label>
+                <input type="text" id="name" name="name" required class="textinput">
+                
+                <label for="email" class="emaillabel">Email:</label>
+                <input type="email" id="email" name="email" required class="emailinput">
+                
+                <label for="message" class="messagelabel">Message:</label>
+                <textarea id="message" name="message" class="messagearea"></textarea>
+                
+                <!-- Submit button with no onclick attribute -->
+                <button type="button" class="submit-button" onclick="sendMail(event)">Send Message</button>
+            </form>
+        </div>
+        
+        <!-- Thank you message, hidden by default -->
+        <div id="thank-you-message" style="display: none;">
+            <p class="thanktext">Thank you for your message! We will get back to you shortly.</p>
+            <button onclick="showForm()" class="thankbtn">Submit Another Message</button>
+        </div>
+    </div> 
 
     </section>
     <footer>

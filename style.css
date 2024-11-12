@@ -183,7 +183,7 @@ section{
 }
 
 .section__text__p2{
-    font-size: 1.75rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
@@ -401,6 +401,108 @@ article.icon{
 .contact-icon{
     cursor: default;
 }
+
+#conform {
+    padding-bottom: 50px;
+}
+
+.conemail {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 20px;
+    color: rgb(53, 53, 53);
+    margin: 10px 0 5px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.textinput,
+.emailinput,
+.messagearea {
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+textarea.messagearea {
+    height: 150px;
+    resize: vertical;
+}
+
+.submit-button {
+    width: 200px;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: rgb(53,53,53);
+    color: white; 
+}
+
+.thankbtn {
+    width: 300px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+}
+
+.thankbtn:hover {
+    background-color:rgb(53,53,53);
+    color: white; 
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.8);
+}
+
+.thanktext {
+    padding-top: 10%;
+    padding-bottom: 30px;
+    text-align: center;
+    color:black;
+}
+
+#thank-you-message {
+    padding-bottom: 5%;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+.downcon {
+    padding-top: 60px;
+}
+
 
 /* FOOTER */
 
