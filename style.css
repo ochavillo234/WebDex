@@ -340,31 +340,30 @@ article.icon{
 
 /* PROJECT */
 
-#Projects {
-    padding: 20px;
-    text-align: center;
-    max-width: 375px;  /* Limiting the width for iPhone SE */
-    margin: 0 auto;    /* Center content */
+#Projects{
+    position: relative;
 }
 
-/* Title and text styling */
-.title {
-    font-size: 1.6rem;
-    margin-bottom: 10px;
-    color: #FFD700;
-}
-
-.section__text__p1 {
-    font-size: 1rem;
-    color: #fff;
-    margin-bottom: 20px;
+.color-container{
+    border-color: rgb(163,163,163);
+    background: rgb(250,250,250);
 }
 
 .project-img {
-    width: 100%;      /* Make the image responsive */
-    height: auto;     /* Maintain aspect ratio */
-    border-radius: 10px;
-    margin-bottom: 20px;
+    width: 50%;          /* Make image fill the container width */
+    height: auto;         /* Maintain the aspect ratio */
+    border-radius: 0.5; /* Optional: rounded corners on the image */
+    object-fit: cover;    /* Ensure image covers the entire area without stretching */
+}
+
+.project-title{
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn{
+    color: black;
+    border-color: rgb(163,163,163);
 }
 
 /* CONTACT */
