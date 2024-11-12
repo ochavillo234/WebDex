@@ -350,10 +350,10 @@ article.icon{
 }
 
 .project-img {
-    width: 50%;          /* Make image fill the container width */
-    height: auto;         /* Maintain the aspect ratio */
-    border-radius: 0.5; /* Optional: rounded corners on the image */
-    object-fit: cover;    /* Ensure image covers the entire area without stretching */
+    width: 50%;         
+    height: auto;        
+    border-radius: 0.5; 
+    object-fit: cover;   
 }
 
 .project-title{
