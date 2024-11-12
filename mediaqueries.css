@@ -90,36 +90,3 @@
         text-align:justify;
     }
 }
-
-@media (max-width: 375px) {
-    #Projects {
-        padding: 10px;  /* Reduce padding for smaller screens */
-    }
-
-    .title {
-        font-size: 1.4rem;  /* Smaller font size for the title */
-    }
-
-    .section__text__p1 {
-        font-size: 0.9rem;  /* Smaller text for the paragraph */
-    }
-
-    .project-img {
-        max-width: 100%;   /* Ensure image fits within the container */
-        height: auto;      /* Maintain aspect ratio */
-    }
-
-    .details-container {
-        padding: 10px;
-    }
-
-    .project-btn, .btn-color-2 {
-        padding: 10px 15px;  /* Smaller padding for buttons */
-        font-size: 0.8rem;    /* Smaller text on buttons */
-    }
-
-    .experience-sub-title {
-        font-size: 1.2rem;  /* Reduce subtitle size */
-        margin: 10px 0;
-    }
-}

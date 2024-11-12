@@ -360,7 +360,6 @@ article.icon{
     margin-bottom: 20px;
 }
 
-/* Image styling */
 .project-img {
     width: 100%;      /* Make the image responsive */
     height: auto;     /* Maintain aspect ratio */
