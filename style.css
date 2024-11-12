@@ -352,7 +352,7 @@ article.icon{
 .project-img {
     width: 50%;         
     height: auto;        
-    border-radius: 0.5; 
+    border-radius: 0.5rem; 
     object-fit: cover;   
 }
 
